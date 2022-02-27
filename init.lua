@@ -1,11 +1,11 @@
 -- Basic materials mod
--- by Vanessa Dannenberg
+-- by Vanessa Dannenberg & MysticTempest
 
 -- This mod supplies all those little random craft items that everyone always
 -- seems to need, such as metal bars (ala rebar), plastic, wire, and so on.
 
 basic_materials = {}
-basic_materials.mod = { author = "Vanessa Dannenberg" }
+
 basic_materials.modpath = minetest.get_modpath("basic_materials")
 
 dofile(basic_materials.modpath .. "/nodes.lua")
